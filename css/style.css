@@ -1,0 +1,404 @@
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: auto;
+}
+
+body {
+  background: url('../images/newyork.jpg') no-repeat fixed left bottom;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+header {
+  width: 100%;
+  height: 65px;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid #fff;
+}
+
+header h1 {
+  float: left;
+  padding: 8px 10px;
+}
+header i {
+  margin-right: 10px;
+}
+
+.navi {
+  float: right;
+  margin-right: 50px;
+}
+
+.navi li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.navi a:link {
+  display: block;
+  line-height: 65px;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navi a:hover {
+  color: inherit;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.navi a:visited {
+  color: inherit;
+}
+
+.top {
+  padding: 190px 30px 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-title {
+  margin: 30px 0 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+.title {
+  margin: 40px 0 50px;
+  font-family: 'Montserrat';
+}
+
+.title h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.title span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.top-description {
+  margin-bottom: 70px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.button a:link {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: rgba(255,255,255,0.3);
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button a:hover {
+  color: inherit;
+  background-color: rgba(255,255,255,0.4);
+  transition: all 0.2s;
+}
+
+.button a:visited {
+  color: inherit;
+}
+
+.about {
+  padding: 80px 50px;
+  background-color: rgba(255,255,255,0.9);
+  color: #333;
+  text-align: center;
+}
+
+
+.about h2 {
+  font-weight: bold;
+}
+
+
+.about-container img {
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+
+}
+
+.about-description {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.about-container table{
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.about-container table tr th,
+.about-container table tr td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+}
+
+.about-container table tr th {
+  font-weight: bold;
+}
+
+.comment {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.comment p{
+  font-family: "Times New Roman";
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  color: rgba(0,0,0,0.6);
+}
+
+.comment p:first-letter {
+  font-family: "Times New Roman";
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+.education {
+  background-color: rgba(33,47,60,0.99);
+  padding: 10px 0 50px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.circles {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.circle{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  float: left;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.left-half {
+  width: 10px;
+  margin-left: 0;
+  border-radius: 0 20px 20px 0;
+}
+
+.right-half {
+  width: 10px;
+  margin-right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.edu-container {
+  display: table;
+  width: 80%;
+  margin: 50px auto 0;
+  table-layout: fixed;
+}
+
+.edu {
+  display: table-cell;
+  margin: 50px auto;
+  color: black;
+  width: 272px;
+  height: 350px;
+  box-shadow: 0 8px 6px -6px black;
+  float: left;
+}
+
+.edu img {
+  width: 270px;
+  height: 180px;
+}
+
+.education h2 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-title {
+  padding: -5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.skills {
+  padding: 80px 0;
+  background-color: rgba(255,255,255,0.9);
+  color: #333;
+  text-align: center;
+}
+
+.skills h2 {
+  font-weight: bold;
+}
+
+.skills-container {
+  display: table;
+  width: 80%;
+  margin: 50px auto 0;
+  table-layout: fixed;
+}
+
+.skill-box {
+  display: table-cell;
+}
+
+.skill-icon {
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+  border: 4px solid;
+  border-radius: 50%;
+  color: #5767bf;
+  font-size: 80px;
+}
+
+.skill-title {
+  font-size: 20px;
+}
+
+.skill-description {
+  text-align: left;
+}
+
+.box19 {
+    position: relative;
+    padding:0.25em 1em;
+}
+.box19:before,.box19:after{
+    content:'';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.box19:before{
+    border-left: solid 1px #5767bf;
+    border-top: solid 1px #5767bf;
+    top:0;
+    left: 0;
+}
+.box19:after{
+    border-right: solid 1px #5767bf;
+    border-bottom: solid 1px #5767bf;
+    bottom:0;
+    right: 0;
+}
+.box19 p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+  background-color: rgba(0,0,0,0.2);
+  padding: 100px 0 60px;
+}
+
+.contact h2 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid rgba(255,255,255,0.4);
+  background-color: rgba(255,255,255,0.1);
+  color: #fff;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form textarea:focus {
+  box-shadow: 0 0 12px rgba(255,255,255,0.5) inset;
+}
+
+.contact-form input[type="submit"] {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.3);
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  margin: 50px auto 30px;
+}
+
+.contact-form input[type="submit"]:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.4);
+  transition: all 0.2s;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255,255,255,0.8);
+}
+
+footer {
+  width: 100%;
+  height: 65px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+footer p {
+  padding: 20px 30px;
+  text-align: right;
+  font-size: 14px;
+  color: #fff;
+}
