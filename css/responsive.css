@@ -1,0 +1,147 @@
+@media (max-width: 1000px) {
+  body {
+    background: url('../images/newyork.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+
+
+
+  .top {
+    padding-top: 120px;
+  }
+
+  .navi {
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 65px;
+  }
+
+  .title h1 {
+    font-size: 120px;
+  }
+
+  .title span {
+    display: none;
+  }
+
+  .about-description {
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .education {
+    padding: 80px 10px;
+  }
+
+  .circles {
+    display: none;
+  }
+
+  .edu {
+    margin: 15px auto;
+    display: table-cell;
+    margin: 20px auto;
+    color: black;
+    width: 372px;
+    height: 350px;
+    box-shadow: 0 8px 6px -6px black;
+    float: none;
+  }
+
+  .edu img {
+    width: 370px;
+    height: 220px;
+  }
+
+  .contact {
+    padding: 30px 0;
+  }
+
+  .contact-form {
+    width: 70%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  body {
+    background: url('../images/newyork.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+
+  .navi {
+    display: none;
+  }
+
+  .title h1 {
+    font-size: 65px;
+  }
+
+  .title span {
+    display: none;
+  }
+
+  .about {
+    padding: 50px 10px;
+  }
+
+  .about-container img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .about-description tr th,
+  .about-description tr th {
+    font-size: 16px;
+  }
+
+  .education {
+    padding: 50px 10px;
+  }
+  .circles {
+    display: none;
+  }
+
+  .edu {
+    width: 100%;
+    height:90%;
+    margin: 15px auto;
+  }
+
+  .edu img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .contact {
+    padding: 30px 0;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+}
